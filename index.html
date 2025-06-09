@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обучение нейросетям и фриланс</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Обучение нейросетям и фриланс</h1>
+        <p>Пройдите тест, чтобы проверить свои знания в области искусственного интеллекта.</p>
+        <form id="quiz-form">
+            <ol>
+                <li>
+                    <p>Что такое нейронная сеть?</p>
+                    <label><input type="radio" name="q1" value="0"> Математическая функция</label><br>
+                    <label><input type="radio" name="q1" value="1"> Архитектура машинного обучения</label><br>
+                </li>
+                <li>
+                    <p>Как называется процесс обучения нейронной сети?</p>
+                    <label><input type="radio" name="q2" value="1"> Тренировка</label><br>
+                    <label><input type="radio" name="q2" value="0"> Компиляция</label><br>
+                </li>
+                <li>
+                    <p>Что такое оверфиттинг?</p>
+                    <label><input type="radio" name="q3" value="1"> Переобучение модели на обучающей выборке</label><br>
+                    <label><input type="radio" name="q3" value="0"> Недостаток данных для обучения</label><br>
+                </li>
+                <li>
+                    <p>Какая функция активации часто используется в скрытых слоях?</p>
+                    <label><input type="radio" name="q4" value="1"> ReLU</label><br>
+                    <label><input type="radio" name="q4" value="0"> Softmax</label><br>
+                </li>
+                <li>
+                    <p>Для чего используется градиентный спуск?</p>
+                    <label><input type="radio" name="q5" value="1"> Оптимизация параметров модели</label><br>
+                    <label><input type="radio" name="q5" value="0"> Генерация новых данных</label><br>
+                </li>
+            </ol>
+            <button type="submit">Проверить результат</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
